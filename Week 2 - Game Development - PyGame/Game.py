@@ -1,8 +1,6 @@
 import pygame
 
-
 pygame.init()
-
 
 display_width = 800
 display_height = 600
@@ -15,13 +13,13 @@ white = (255,255,255)
 
 clock = pygame.time.Clock()
 crashed = False
-carImg = pygame.image.load('Car.png')
+carImg = pygame.image.load('Week 2 - Game Development - PyGame\Car.png')
 
 def car(x,y):
     gameDisplay.blit(carImg, (x,y))
 
-x =  (display_width * 0.40)
-y = (display_height * 0.75)
+x =  (display_width * 0.35)
+y = (display_height * 0.70)
 x_change = 0
 
 while not crashed:
